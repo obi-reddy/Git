@@ -4,7 +4,7 @@ To create a commit, you need to follow these steps:
 
 1. Stage changes: Use the `git add` command to stage the changes you want to include in the commit. You can specify individual files or directories, or use the `.` (dot) notation to stage all changes in the current directory.
 
-   ```shell
+   ```
    git add file1.txt        # Stage a specific file
    git add directory/       # Stage all changes in a directory
    git add .                # Stage all changes in the current directory
@@ -12,13 +12,13 @@ To create a commit, you need to follow these steps:
 
 2. Review changes: Before committing, you can review the staged changes using the `git status` command. It shows the files that have been modified, added, or deleted.
 
-   ```shell
+   ```
    git status
    ```
 
 3. Create a commit: Once you are satisfied with the changes, you can create a commit using the `git commit` command. It requires you to provide a commit message that describes the changes made in the commit.
 
-   ```shell
+   ```
    git commit -m "Add new feature"
    ```
 
