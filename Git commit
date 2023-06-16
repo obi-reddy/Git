@@ -26,7 +26,7 @@ To create a commit, you need to follow these steps:
 
 4. Commit history: After the commit is created, it becomes part of the repository's history, and it is assigned a unique identifier called a commit hash or commit ID. You can view the commit history using the `git log` command, which displays a list of commits in reverse chronological order.
 
-   ```shell
+   ```
    git log
    ```
 
