@@ -6,7 +6,7 @@ To create a commit, you need to follow these steps:
 
    ```
    git add file1.txt        # Stage a specific file
-   git add directory/       # Stage all changes in a directory
+   git add directory/       # Stage all changes in a directory 
    git add .                # Stage all changes in the current directory
    ```
 
