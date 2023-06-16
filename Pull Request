@@ -1,0 +1,38 @@
+A pull request is a feature commonly used in Git-based version control systems, such as GitHub, GitLab, or Bitbucket, to propose changes and initiate a discussion before merging those changes into a target branch.
+
+Here's an overview of the pull request process:
+
+1. Fork or clone the repository: If you are not a direct contributor to the original repository, you typically start by forking the repository, creating your own copy of it on the Git hosting platform. If you have direct access to the repository, you can skip this step and clone the repository to your local machine.
+
+2. Create a new branch: Before making changes, create a new branch to work on your proposed changes. This helps isolate your changes from the main branch or other ongoing development.
+
+   ```
+   git checkout -b feature-branch
+   ```
+
+3. Make and commit changes: Make the necessary changes to the code or files in your branch and commit them to record the changes.
+
+   ```
+   git add .
+   git commit -m "Implement new feature"
+   ```
+
+4. Push the branch: Push the branch to your forked repository or the remote repository where you have write access.
+
+   ```
+   git push origin feature-branch
+   ```
+
+5. Open a pull request: On the Git hosting platform, navigate to your forked repository or the main repository and open a pull request. Specify the source branch (e.g., `feature-branch`) and the target branch (e.g., `main` or `master`) for the pull request.
+
+6. Describe the changes: Provide a clear and concise description of the changes you made, including any relevant context, reasoning, or potential impacts.
+
+7. Review and discussion: Other contributors can now review your changes, provide feedback, suggest modifications, or discuss the proposed changes within the pull request. They may comment on specific lines of code, suggest alternative approaches, or ask questions.
+
+8. Make updates and additional commits: If feedback or changes are requested, make the necessary updates to your branch, commit them, and push the changes to the branch associated with the pull request. The pull request will be automatically updated.
+
+9. Merge the pull request: Once the changes have been reviewed, approved, and deemed ready, a maintainer or repository owner can merge the pull request. This action integrates the changes from the source branch into the target branch.
+
+10. Close the pull request: After the pull request is merged, it can be closed. Some platforms automatically close the pull request when merged, while others require manual closure.
+
+Pull requests provide a collaborative platform for reviewing and discussing proposed changes. They facilitate communication among team members, allow for thorough code review, and help maintain a clean and organized development process.
