@@ -94,3 +94,40 @@ git clone https://github.com/obi-reddy/Git.git
 This command clones the "example-repo" repository hosted on GitHub into a new directory called "example-repo" in the current working directory.
 
 Once the cloning process is complete, you will have a local copy of the repository, including all the files and commit history. You can navigate into the cloned directory using `cd` and start working on the project.
+
+<h1>Commit</h1>
+In Git, a commit is a fundamental concept that represents a snapshot of the project's files at a specific point in time. It records the changes made to the files and allows you to track and manage the project's history.
+
+To create a commit, you need to follow these steps:
+
+1. Stage changes: Use the `git add` command to stage the changes you want to include in the commit. You can specify individual files or directories, or use the `.` (dot) notation to stage all changes in the current directory.
+
+   ```
+   git add file1.txt        # Stage a specific file
+   git add directory/       # Stage all changes in a directory 
+   git add .                # Stage all changes in the current directory
+   ```
+
+2. Review changes: Before committing, you can review the staged changes using the `git status` command. It shows the files that have been modified, added, or deleted.
+
+   ```
+   git status
+   ```
+
+3. Create a commit: Once you are satisfied with the changes, you can create a commit using the `git commit` command. It requires you to provide a commit message that describes the changes made in the commit.
+
+   ```
+   git commit -m "Add new feature"
+   ```
+
+   The `-m` option is used to specify the commit message directly on the command line. Alternatively, you can omit the `-m` option, which will open a text editor where you can enter a more detailed commit message.
+
+4. Commit history: After the commit is created, it becomes part of the repository's history, and it is assigned a unique identifier called a commit hash or commit ID. You can view the commit history using the `git log` command, which displays a list of commits in reverse chronological order.
+
+   ```
+   git log
+   ```
+
+   The commit history includes information such as the commit hash, author, date, and commit message for each commit.
+
+Commits are essential for tracking changes and collaborating with other developers. They allow you to revert to previous states, review the history of the project, and merge changes from different branches. It's good practice to create meaningful commit messages that describe the purpose or intent of the changes, helping you and others understand the evolution of the project over time.
