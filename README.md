@@ -2,7 +2,7 @@
 Git is a distributed version control system (VCS) that is widely used for managing and tracking changes to files and source code in software development projects. It was created by Linus Torvalds, the creator of the Linux operating system, in 2005.
 
 Git allows multiple developers to collaborate on a project by providing a way to track changes, merge code, and maintain a complete history of modifications. It offers a decentralized architecture, meaning that each developer has a complete copy of the repository, including the entire history of changes. This allows developers to work independently, make changes offline, and merge their changes later.
-
+ 
 Here are some key concepts and terms associated with Git:
 
 1. Repository: A repository, or repo, is a collection of files and folders that make up a project. It contains the complete history of changes made to those files.
