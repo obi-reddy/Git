@@ -4,7 +4,7 @@ The most common merge scenario is merging a feature branch into the main branch.
 
 1. Switch to the target branch: First, switch to the branch into which you want to merge the changes. This is typically the branch where you want the changes to be incorporated, such as the main branch.
 
-   ```
+   ``` 
    git checkout main
    ```
 
