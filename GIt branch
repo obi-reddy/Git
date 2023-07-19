@@ -1,4 +1,4 @@
-In Git, a branch is a parallel line of development that allows you to work on different features, bug fixes, or experiments independently from other branches. Each branch represents a separate line of commits and can be used to isolate changes from the main branch or other branches until they are ready to be integrated.
+ In Git, a branch is a parallel line of development that allows you to work on different features, bug fixes, or experiments independently from other branches. Each branch represents a separate line of commits and can be used to isolate changes from the main branch or other branches until they are ready to be integrated.
 
 Branches are useful for the following purposes:
 
