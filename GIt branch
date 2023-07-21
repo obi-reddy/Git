@@ -8,7 +8,7 @@ Branches are useful for the following purposes:
 
 3. Experimental changes: Branches can be used to create experimental branches where you can try out new ideas or approaches. If the experiment is successful, the changes can be merged back into the main branch or appropriate feature branch.
 
-Here are some common Git commands and operations related to branches:
+Here are some common Git commands and operations related to branches: 
 
 - Create a new branch: To create a new branch, you can use the `git branch` command followed by the branch name. This creates a new branch at the current commit.
 
